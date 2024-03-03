@@ -1,0 +1,41 @@
+html {
+    background-color: blanchedalmond;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.newsletter-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-box h2 {
+    margin-bottom: 20px;
+}
+
+.newsletter-box button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter-box button:hover {
+    background-color: #ff5500;
+}   
+
+.newsletter-box input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
