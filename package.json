@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vite": "^5.1.4"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.12"
   }
 }
